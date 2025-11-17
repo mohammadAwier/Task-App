@@ -1,7 +1,7 @@
 ﻿using TaskManager;
 
 // Enter User in 1 and Email in 2
-var user = new User("MohammedBasheer", "mohammedbasheerawier@gmail.com");
+var user = new User("1", "2");
 User.AddUser(user);
 
 Console.WriteLine("=== Users ===");
@@ -79,4 +79,5 @@ if (searchStatus.Count == 0)
     Console.WriteLine("No results found");
 else
     searchStatus.ForEach(Console.WriteLine);
+
 Console.WriteLine();
